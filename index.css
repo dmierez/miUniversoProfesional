@@ -20,7 +20,7 @@ body input[type="radio"][name="planet"]::after, body .overlay, body .solar_systm
   margin: auto;
 }
 
-body .solar_systm .planet.earth .trajectory.m, body .solar_systm .planet.mars .trajectory.d, body .solar_systm .planet.mars .trajectory.p, body .solar_systm .planet.jupiter .trajectory.lop, body .solar_systm .planet.jupiter .trajectory.eu, body .solar_systm .planet.jupiter .trajectory.ga, body .solar_systm .planet.saturn .trajectory.ti, body .solar_systm .planet.saturn .trajectory.di, body .solar_systm .planet.saturn .trajectory.enc, body .solar_systm .planet.uranus .trajectory.mir, body .solar_systm .planet.uranus .trajectory.ari, body .solar_systm .planet.uranus .trajectory.umb, body .solar_systm .planet.diego .trajectory.tri, body .solar_systm .planet.diego .trajectory.pro, body .solar_systm .planet.diego .trajectory.ner {
+body .solar_systm .planet.earth .trajectory.m, body .solar_systm .planet.mars .trajectory.d, body .solar_systm .planet.mars .trajectory.p, body .solar_systm .planet.jupiter .trajectory.lop, body .solar_systm .planet.jupiter .trajectory.eu, body .solar_systm .planet.jupiter .trajectory.ga, body .solar_systm .planet.saturn .trajectory.ti, body .solar_systm .planet.saturn .trajectory.di, body .solar_systm .planet.saturn .trajectory.enc, body .solar_systm .planet.uranus .trajectory.mir, body .solar_systm .planet.uranus .trajectory.ari, body .solar_systm .planet.uranus .trajectory.umb, body .solar_systm .planet.trayectoria .trajectory.tri, body .solar_systm .planet.trayectoria .trajectory.pro, body .solar_systm .planet.trayectoria .trajectory.ner {
   border: 2px dashed white;
   position: absolute;
   border-radius: 3400px;
@@ -165,8 +165,8 @@ body label.uranus > .preview {
 body label.neptune > .preview {
   background: url("https://img00.deviantart.net/f068/i/2017/165/b/c/neptune_texture_map_by_jcpag2010-dbcjcv5.png") !important;
 }
-body label.pluto > .preview {
-  background: url("https://pre00.deviantart.net/4677/th/pre/f/2015/314/4/e/pluto_map__2015_nov_10__by_snowfall_the_cat-d918tlb.png") !important;
+body label.formacion > .preview {
+  background: url("https://pre00.deviantart.net/4677/th/pre/f/2015/314/4/e/formacion_map__2015_nov_10__by_snowfall_the_cat-d918tlb.png") !important;
 }
 body label.menu {
   color: white;
@@ -212,10 +212,10 @@ body label.menu.saturn h2 .pip {
 body label.menu.uranus h2 .pip {
   background: #8dcdd8;
 }
-body label.menu.diego h2 .pip {
+body label.menu.trayectoria h2 .pip {
   background: #fff;
 }
-body label.menu.diego h2 .pip {
+body label.menu.trayectoria h2 .pip {
   background: #fff;
 }
 body label.menu .preview {
@@ -473,10 +473,10 @@ body input[type="radio"][name="planet"].planet1:checked + label.saturn > .info h
 body input[type="radio"][name="planet"].planet1:checked + label.uranus > .info h3 {
   color: #8dcdd8;
 }
-body input[type="radio"][name="planet"].planet1:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet1:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
-body input[type="radio"][name="planet"].planet1:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet1:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
 body input[type="radio"][name="planet"].planet1:checked + label {
@@ -620,10 +620,10 @@ body input[type="radio"][name="planet"].planet2:checked + label.saturn > .info h
 body input[type="radio"][name="planet"].planet2:checked + label.uranus > .info h3 {
   color: #8dcdd8;
 }
-body input[type="radio"][name="planet"].planet2:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet2:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
-body input[type="radio"][name="planet"].planet2:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet2:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
 body input[type="radio"][name="planet"].planet2:checked + label {
@@ -770,10 +770,10 @@ body input[type="radio"][name="planet"].planet3:checked + label.saturn > .info h
 body input[type="radio"][name="planet"].planet3:checked + label.uranus > .info h3 {
   color: #8dcdd8;
 }
-body input[type="radio"][name="planet"].planet3:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet3:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
-body input[type="radio"][name="planet"].planet3:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet3:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
 body input[type="radio"][name="planet"].planet3:checked + label {
@@ -923,10 +923,10 @@ body input[type="radio"][name="planet"].planet4:checked + label.saturn > .info h
 body input[type="radio"][name="planet"].planet4:checked + label.uranus > .info h3 {
   color: #8dcdd8;
 }
-body input[type="radio"][name="planet"].planet4:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet4:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
-body input[type="radio"][name="planet"].planet4:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet4:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
 body input[type="radio"][name="planet"].planet4:checked + label {
@@ -1079,10 +1079,10 @@ body input[type="radio"][name="planet"].planet5:checked + label.saturn > .info h
 body input[type="radio"][name="planet"].planet5:checked + label.uranus > .info h3 {
   color: #8dcdd8;
 }
-body input[type="radio"][name="planet"].planet5:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet5:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
-body input[type="radio"][name="planet"].planet5:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet5:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
 body input[type="radio"][name="planet"].planet5:checked + label {
@@ -1238,10 +1238,10 @@ body input[type="radio"][name="planet"].planet6:checked + label.saturn > .info h
 body input[type="radio"][name="planet"].planet6:checked + label.uranus > .info h3 {
   color: #8dcdd8;
 }
-body input[type="radio"][name="planet"].planet6:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet6:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
-body input[type="radio"][name="planet"].planet6:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet6:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
 body input[type="radio"][name="planet"].planet6:checked + label {
@@ -1400,10 +1400,10 @@ body input[type="radio"][name="planet"].planet7:checked + label.saturn > .info h
 body input[type="radio"][name="planet"].planet7:checked + label.uranus > .info h3 {
   color: #8dcdd8;
 }
-body input[type="radio"][name="planet"].planet7:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet7:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
-body input[type="radio"][name="planet"].planet7:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet7:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
 body input[type="radio"][name="planet"].planet7:checked + label {
@@ -1565,10 +1565,10 @@ body input[type="radio"][name="planet"].planet8:checked + label.saturn > .info h
 body input[type="radio"][name="planet"].planet8:checked + label.uranus > .info h3 {
   color: #8dcdd8;
 }
-body input[type="radio"][name="planet"].planet8:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet8:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
-body input[type="radio"][name="planet"].planet8:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet8:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
 body input[type="radio"][name="planet"].planet8:checked + label {
@@ -1733,10 +1733,10 @@ body input[type="radio"][name="planet"].planet9:checked + label.saturn > .info h
 body input[type="radio"][name="planet"].planet9:checked + label.uranus > .info h3 {
   color: #8dcdd8;
 }
-body input[type="radio"][name="planet"].planet9:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet9:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
-body input[type="radio"][name="planet"].planet9:checked + label.diego > .info h3 {
+body input[type="radio"][name="planet"].planet9:checked + label.trayectoria > .info h3 {
   color: #fff;
 }
 body input[type="radio"][name="planet"].planet9:checked + label {
@@ -2163,32 +2163,32 @@ body .solar_systm .planet.uranus .umbriel {
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
-body .solar_systm .planet.diego {
+body .solar_systm .planet.trayectoria {
   background: url("https://www.solarsystemscope.com/images/textures/full/2k_neptune.jpg");
   box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px #2d4153;
 }
-body .solar_systm .planet.diego .moon h3 {
+body .solar_systm .planet.trayectoria .moon h3 {
   color: #fff;
 }
-body .solar_systm .planet.diego .trajectory.tri {
+body .solar_systm .planet.trayectoria .trajectory.tri {
   width: 1500px;
   height: 1500px;
   left: -210px;
   top: -189px;
 }
-body .solar_systm .planet.diego .trajectory.pro {
+body .solar_systm .planet.trayectoria .trajectory.pro {
   width: 1530px;
   height: 1530px;
   left: -165px;
   top: -130px;
 }
-body .solar_systm .planet.diego .trajectory.ner {
+body .solar_systm .planet.trayectoria .trajectory.ner {
   width: 1760px;
   height: 1760px;
   left: -360px;
   top: -114px;
 }
-body .solar_systm .planet.diego .triton {
+body .solar_systm .planet.trayectoria .triton {
   left: 100px;
   top: -100px;
   -webkit-transform: scale(0.4);
@@ -2197,7 +2197,7 @@ body .solar_systm .planet.diego .triton {
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
-body .solar_systm .planet.diego .proteus {
+body .solar_systm .planet.trayectoria .proteus {
   left: 400px;
   top: -210px;
   -webkit-transform: scale(0.45);
@@ -2206,7 +2206,7 @@ body .solar_systm .planet.diego .proteus {
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
-body .solar_systm .planet.diego .nereid {
+body .solar_systm .planet.trayectoria .nereid {
   left: 900px;
   top: -70px;
   -webkit-transform: scale(0.4);
@@ -2215,8 +2215,8 @@ body .solar_systm .planet.diego .nereid {
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
-body .solar_systm .planet.pluto {
-  background: url("https://pre00.deviantart.net/4677/th/pre/f/2015/314/4/e/pluto_map__2015_nov_10__by_snowfall_the_cat-d918tlb.png");
+body .solar_systm .planet.formacion {
+  background: url("https://pre00.deviantart.net/4677/th/pre/f/2015/314/4/e/formacion_map__2015_nov_10__by_snowfall_the_cat-d918tlb.png");
   box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px #2d4153;
 }
 body .solar_systm .planet_description {
@@ -2276,16 +2276,16 @@ body .solar_systm .planet_description.uranus a {
 body .solar_systm .planet_description.uranus h2 {
   color: #d9eef2;
 }
-body .solar_systm .planet_description.diego a {
+body .solar_systm .planet_description.trayectoria a {
   color: #fff;
 }
-body .solar_systm .planet_description.diego h2 {
+body .solar_systm .planet_description.trayectoria h2 {
   color: white;
 }
-body .solar_systm .planet_description.diego a {
+body .solar_systm .planet_description.trayectoria a {
   color: #fff;
 }
-body .solar_systm .planet_description.diego h2 {
+body .solar_systm .planet_description.trayectoria h2 {
   color: white;
 }
 body .solar_systm .planet_description h1,
@@ -2294,8 +2294,9 @@ body .solar_systm .planet_description p,
 body .solar_systm .planet_description a {
   font-weight: 100;
   font-size: 10px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   margin: 0;
+  text-transform: none;
 }
 body .solar_systm .planet_description h1 {
   letter-spacing: 16px;
@@ -2308,12 +2309,14 @@ body .solar_systm .planet_description a {
 body .solar_systm .planet_description h2 {
   margin-top: 60px;
   margin-bottom: 6px;
+  font-size: 16px;
 }
 body .solar_systm .planet_description p {
   line-height: 26px;
   margin-top: 14px;
-  oapcity: 0.9;
+  opacity: 0.9;
   margin-bottom: 10px;
+  font-size: 12px;
 }
 body .solar_systm .planet_description a {
   color: #fea082;
